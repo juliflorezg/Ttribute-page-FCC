@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Tinos&display=swap');
+
+:root{
+   --font-size: 1.5rem;
+   --second-font-size: 1.2rem;
+   --third-font-size: .9rem;
+   --main-font : 'Cinzel', serif;;
+   --second-font : 'Tinos', serif;;
+   --container-width: 1400px;
+   --main-color: rgb(220, 220, 220);
+   --second-color: rgb(34,34,34);
+   --main-modal-color: rgba(220, 220, 220 0.7);
+   --second-modal-color: rgba(34,34,34, 0.85);
+}
+
+html{
+   box-sizing: border-box;
+   font-family: var(--main-font);
+   font-size: var(--font-size);
+   scroll-behavior: smooth;
+
+}
+
+*,
+*:before,
+*:after{
+   box-sizing: inherit;
+}
+
+body{
+   margin:0;
+   overflow-x: hidden;
+   text-align: center;
+}
+
+header{
+   background-color: var(--main-color);
+   padding: .4rem;
+}
+
+h1{
+   margin: 0 .5rem .5rem .5rem;
+}
+
+#img-div{
+   display: flex;
+   flex-direction: column;
+   width:100%;
+   border: thin red solid;
+}
+
+img{
+   justify-content: center;
+   display: block;
+   width: 60%;
+   max-width: 100%;
+   height: auto;
+   margin:2rem auto;
+}
+
+p{
+   font-family: var(--second-font);
+}
+
+#tribute-info{
+   margin: 2.5rem;
+   font-family: var(--second-font);
+}
+
+#tribute-info p span {
+   font-weight: bold;
+   font-size: 1.2rem;
+}
